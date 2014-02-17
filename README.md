@@ -1,10 +1,11 @@
 MK_iOSSamples
 =============
-・gitリポジトリ作成（+Readme）
+・githubリポジトリ作成（+Readme）
 
+・個別リポジトリ
 git init
 
-git remote add origin https://github.com/moonkids/MK_ConstraintSample.git
+git remote add origin https://github.com/moonkids/MK_xxx.git
 
 git add .
 
@@ -18,4 +19,7 @@ git commit -m 'initialize'
 
 git push origin master
 
+・マージリポジトリ
 git  submodule  add https://github.com/moonkids/MK_xxx.git MK_xxx
+
+git commit -m 'merge'
