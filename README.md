@@ -18,3 +18,4 @@ git commit -m 'initialize'
 
 git push origin master
 
+git  submodule  add https://github.com/moonkids/MK_xxx.git MK_xxx
