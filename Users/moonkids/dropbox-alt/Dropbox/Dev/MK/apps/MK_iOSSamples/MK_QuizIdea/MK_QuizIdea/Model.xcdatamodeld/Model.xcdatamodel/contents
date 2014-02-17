@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13A603" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Question" syncable="YES"/>
+    <entity name="Test" syncable="YES">
+        <attribute name="attribute" optional="YES" syncable="YES"/>
+        <relationship name="questions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Question" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Test" positionX="-54" positionY="-99" width="128" height="73"/>
+        <element name="Question" positionX="144" positionY="45" width="128" height="45"/>
+    </elements>
+</model>

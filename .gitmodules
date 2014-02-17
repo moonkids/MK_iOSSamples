@@ -1,0 +1,9 @@
+[submodule "MK_ConstraintSample"]
+	path = MK_ConstraintSample
+	url = https://github.com/moonkids/MK_ConstraintSample.git
+[submodule "MK_ChartJS"]
+	path = MK_ChartJS
+	url = https://github.com/moonkids/MK_ChartJS.git
+[submodule "MK_ClassExtendsSample"]
+	path = MK_ClassExtendsSample
+	url = https://github.com/moonkids/MK_ClassExtendsSample.git
