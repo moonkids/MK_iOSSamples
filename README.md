@@ -23,3 +23,5 @@ git push origin master
 git  submodule  add https://github.com/moonkids/MK_xxx.git MK_xxx
 
 git commit -m 'merge'
+
+git push origin master
