@@ -4,26 +4,26 @@ MK_iOSSamples
 
 **【ローカル】個別リポジトリでの作業**
 
-git init
+    git init
 
-git remote add origin https://github.com/moonkids/MK_xxx.git
+    git remote add origin https://github.com/moonkids/MK_xxx.git
 
-git add .
+    git add .
 
-git fetch
+    git fetch
 
-git merge origin/master
+    git merge origin/master
 
 //git mergetool
 
-git commit -m 'initialize'
+    git commit -m 'initialize'
 
-git push origin master
+    git push origin master
 
 **マージリポジトリ**
 
-git  submodule  add https://github.com/moonkids/MK_xxx.git MK_xxx
+    git  submodule  add https://github.com/moonkids/MK_xxx.git MK_xxx
 
-git commit -m 'merge'
+    git commit -m 'merge'
 
-git push origin master
+    git push origin master
