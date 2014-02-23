@@ -1,8 +1,8 @@
 MK_iOSSamples
 =============
-・githubリポジトリ作成（+Readme）
+・【リモート】githubリポジトリ作成
 
-・個別リポジトリ
+・【ローカル】個別リポジトリでの作業
 git init
 
 git remote add origin https://github.com/moonkids/MK_xxx.git
@@ -13,7 +13,7 @@ git fetch
 
 git merge origin/master
 
-git mergetool
+#git mergetool
 
 git commit -m 'initialize'
 
