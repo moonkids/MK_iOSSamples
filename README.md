@@ -1,8 +1,11 @@
 MK_iOSSamples
 =============
-・【リモート】githubリポジトリ作成
 
-**【ローカル】個別リポジトリでの作業**
+##【リモート】githubリポジトリ作成
+
+---
+
+##【ローカル】個別リポジトリでの作業
 
     git init
 
@@ -20,7 +23,7 @@ MK_iOSSamples
 
     git push origin master
 
-**マージリポジトリ**
+##マージリポジトリ
 
     git  submodule  add https://github.com/moonkids/MK_xxx.git MK_xxx
 
