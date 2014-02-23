@@ -2,7 +2,8 @@ MK_iOSSamples
 =============
 ・【リモート】githubリポジトリ作成
 
-*【ローカル】個別リポジトリでの作業*
+**【ローカル】個別リポジトリでの作業**
+
 git init
 
 git remote add origin https://github.com/moonkids/MK_xxx.git
@@ -19,7 +20,8 @@ git commit -m 'initialize'
 
 git push origin master
 
-*マージリポジトリ*
+**マージリポジトリ**
+
 git  submodule  add https://github.com/moonkids/MK_xxx.git MK_xxx
 
 git commit -m 'merge'
