@@ -17,13 +17,13 @@ MK_iOSSamples
 
     git merge origin/master
 
-//git mergetool
+    (git mergetool)
 
     git commit -m 'initialize'
 
     git push origin master
 
-##マージリポジトリ
+##【ローカル】サブモジュールの追加
 
     git  submodule  add https://github.com/moonkids/MK_xxx.git MK_xxx
 
